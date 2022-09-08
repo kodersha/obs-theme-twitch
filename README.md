@@ -6,6 +6,8 @@ Twitch style theme for OBS Studio 28+
 ## Install
 
 1. Put `Twitch` folder and `Twitch.qss` file to `OBS Studio\data\obs-studio\themes` directory.
-2. Change `Twitch` theme in your OBS settings.
+2. Choice `Twitch` theme in your OBS settings.
+
+---
 
 Create by [kodersha.ru](https://kodersha.ru).
