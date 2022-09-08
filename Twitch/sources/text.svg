@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="Iconly-Curved-Play" serif:id="Iconly/Curved/Play" transform="matrix(1.10811,0,0,1.10811,-1.29727,-1.29727)">
+        <g id="Play">
+            <path id="Stroke-1" serif:id="Stroke 1" d="M2.75,12C2.75,18.937 5.063,21.25 12,21.25C18.937,21.25 21.25,18.937 21.25,12C21.25,5.063 18.937,2.75 12,2.75C5.063,2.75 2.75,5.063 2.75,12Z" style="fill:none;stroke:white;stroke-width:2.17px;"/>
+        </g>
+        <g id="Shape" transform="matrix(0.733231,0,0,0.733231,3.01913,3.20113)">
+            <path d="M12.38,4C15.017,4 17,6.182 17,8.625C17,9.602 16.683,10.537 16.135,11.307C17.212,12.134 18,13.428 18,15.12C18,18.232 15.302,20 13.12,20L8,20C7.172,20 6.5,19.328 6.5,18.5L6.497,5.501C6.496,5.103 6.654,4.721 6.936,4.44C7.217,4.158 7.599,4 7.997,4L12.38,4ZM13.12,13.25L9.5,13.25L9.5,17L13.12,17C13.993,17 15,16.247 15,15.12C15,13.99 14.025,13.25 13.12,13.25ZM12.38,7L9.497,7L9.499,10.25L12.38,10.25C13.283,10.25 14,9.491 14,8.625C14,7.76 13.282,7 12.38,7Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g transform="matrix(0.063131,0,0,0.063131,-4.16153,-3.65648)">
+        <g id="Iconly-Curved-Play" serif:id="Iconly/Curved/Play">
+            <g id="Play">
+                <g>
+                    <path d="M288,193C288,193 300.18,187 256,187C212.113,187 176,223.113 176,267C176,310.887 212.113,347 256,347C299.887,347 336,310.887 336,267" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:38.02px;"/>
+                    <path d="M256,149L296,189L256,229" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:38.02px;stroke-linejoin:round;stroke-miterlimit:4;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

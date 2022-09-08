@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(-0.85403,0,0,0.85403,22.7483,1.75168)">
+        <g id="Iconly-Curved-Play" serif:id="Iconly/Curved/Play">
+            <g id="Play">
+                <g id="Stroke-3" serif:id="Stroke 3" transform="matrix(2.21459,0,0,2.21459,-17.8036,-14.266)">
+                    <path d="M15.416,11.855C15.416,10.951 10.832,8.059 10.312,8.579C9.793,9.099 9.742,14.562 10.312,15.131C10.883,15.702 15.416,12.759 15.416,11.855Z" style="fill:none;stroke:white;stroke-width:1.27px;"/>
+                </g>
+                <g transform="matrix(1.08224e-16,1.98474,-1.76744,1.2153e-16,42.1403,-11.7892)">
+                    <g id="Stroke-2" serif:id="Stroke 2">
+                        <path d="M15.596,11.937L8.376,11.937" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.5px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

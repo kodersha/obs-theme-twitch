@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="Iconly-Curved-Filter" serif:id="Iconly/Curved/Filter" transform="matrix(1.31294,0,0,1.31294,-4.62129,-4.59343)">
+        <g id="Filter">
+            <path id="Stroke-1" serif:id="Stroke 1" d="M11.905,17.884L5.433,17.884" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.83px;"/>
+            <path id="Stroke-3" serif:id="Stroke 3" d="M15.205,17.884C15.205,19.926 15.886,20.606 17.927,20.606C19.968,20.606 20.648,19.926 20.648,17.884C20.648,15.842 19.968,15.162 17.927,15.162C15.886,15.162 15.205,15.842 15.205,17.884Z" style="fill:none;stroke:white;stroke-width:1.83px;"/>
+            <path id="Stroke-5" serif:id="Stroke 5" d="M13.415,7.393L19.886,7.393" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.83px;"/>
+            <path id="Stroke-7" serif:id="Stroke 7" d="M10.115,7.393C10.115,5.352 9.434,4.671 7.393,4.671C5.352,4.671 4.671,5.352 4.671,7.393C4.671,9.435 5.352,10.115 7.393,10.115C9.434,10.115 10.115,9.435 10.115,7.393Z" style="fill:none;stroke:white;stroke-width:1.83px;"/>
+        </g>
+    </g>
+</svg>

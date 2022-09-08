@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(1.10526,0,0,1.10526,-1.30065,-1.26301)">
+        <g id="Iconly-Curved-Voice" serif:id="Iconly/Curved/Voice">
+            <g id="Voice">
+                <path id="Stroke-1" serif:id="Stroke 1" d="M6.365,13.679C6.365,16.81 8.903,19.348 12.034,19.348C15.166,19.348 17.704,16.81 17.704,13.679" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.17px;"/>
+                <path id="Stroke-3" serif:id="Stroke 3" d="M17.703,10.423L17.703,8.169C17.703,5.038 15.166,2.5 12.034,2.5C8.903,2.5 6.364,5.038 6.364,8.169L6.364,10.423" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.17px;"/>
+                <path id="Stroke-5" serif:id="Stroke 5" d="M12.034,21.5L12.034,19.348" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.17px;"/>
+                <path id="Stroke-7" serif:id="Stroke 7" d="M4.9,13.679L19.168,13.679" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.17px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
