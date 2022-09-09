@@ -771,7 +771,7 @@ QTabBar::tab {
 
 QTabBar::tab:pressed {
     background-color: transparent;
-    color: rgb(132, 132, 148);
+    color: rgb(173, 173, 184);
 }
 
 QTabBar::tab:hover {
@@ -788,13 +788,17 @@ QTabBar::tab:selected:hover {
     background-color: transparent;
     color: rgb(247, 247, 248);
 }
+QTabBar::tab:selected:pressed {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
 
 QTabBar::tab:top:selected {
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 QTabBar::tab:bottom:selected {
-    border-top: 0px;
+    border-top: 0;
 }
 
 QTabBar QToolButton {
@@ -988,6 +992,9 @@ QDoubleSpinBox::down-arrow:hover {
 
     padding: 8px 12px;
     text-align: left;
+
+    min-height: 18px;
+    max-height: 18px;
 }
 
 #controlsDock QPushButton#broadcastButton {
@@ -995,8 +1002,8 @@ QDoubleSpinBox::down-arrow:hover {
     color: rgb(31, 31, 35);
     font-size: 1px;
 
-    max-width: 16px;
     min-width: 16px;
+    max-width: 16px;
 
     padding: 8px;
 }
@@ -1142,55 +1149,39 @@ QPushButton::flat {
 QPushButton::flat:pressed {
     background-color: rgb(119, 44, 232);
     color: rgb(247, 247, 248);
-    outline: none;
-    border: none;
 }
 
 QPushButton:checked {
     background-color: rgb(41, 41, 45);
     color: rgb(239, 239, 241);
-    outline: none;
-    border: none;
 }
 
 QPushButton:hover {
     background-color: rgb(41, 41, 45);
     color: rgb(239, 239, 241);
-    outline: none;
-    border: none;
 }
 
 QPushButton:pressed {
     background-color: rgb(41, 41, 45);
     color: rgb(239, 239, 241);
-    outline: none;
-    border: none;
 }
 
 QPushButton:disabled {
     background-color: rgb(24, 24, 27);
     color: rgb(83, 83, 95);
-    outline: none;
-    border: none;
 }
 QPushButton:disabled:hover {
     background-color: rgb(24, 24, 27);
     color: rgb(83, 83, 95);
-    outline: none;
-    border: none;
 }
 
 QPushButton:selected {
     background-color: rgb(119, 44, 232);
     color: rgb(247, 247, 248);
-    outline: none;
-    border: none;
 }
 QPushButton:selected:hover {
     background-color: rgb(119, 44, 232);
     color: rgb(247, 247, 248);
-    outline: none;
-    border: none;
 }
 
 QPushButton::menu-indicator {
@@ -1204,15 +1195,15 @@ QPushButton::menu-indicator {
 
 QSlider::groove:horizontal {
     background-color: rgb(50, 50, 57);
-    height: 4px;
-    border: none;
     border-radius: 2px;
+    border: none;
+    height: 4px;
 }
 
 QSlider::handle:horizontal {
     background-color: rgb(145, 71, 255);
-    border: none;
     border-radius: 5px;
+    border: none;
     height: 10px;
     width: 10px;
     margin: -3px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
@@ -1242,17 +1233,17 @@ QSlider::handle:horizontal:disabled {
 
 QSlider::groove:vertical {
     background-color: rgb(50, 50, 57);
-    width: 4px;
-    border: none;
     border-radius: 2px;
+    border: none;
+    width: 4px;
 }
 
 QSlider::handle:vertical {
     background-color: rgb(145, 71, 255);
-    border: none;
     border-radius: 5px;
-    width: 10px;
+    border: none;
     height: 10px;
+    width: 10px;
     margin: 0 -3px; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
 }
 
@@ -1444,7 +1435,7 @@ QLabel#errorLabel {
 /* About dialog */
 
 * [themeID="aboutName"] {
-    font-size: 26pt;
+    font-size: 20pt;
 }
 
 * [themeID="aboutVersion"] {
@@ -1457,14 +1448,24 @@ QLabel#errorLabel {
 }
 
 * [themeID="aboutHLayout"] {
-    background-color: palette(base);
+    background-color: rgb(31, 31, 35);
+    border-radius: 4px;
+    color: rgb(239, 239, 241);
+    text-decoration: none;
+}
+* [themeID="aboutHLayout"]:hover {
+    background-color: rgb(41, 41, 45);
+    color: rgb(239, 239, 241);
+}
+* [themeID="aboutHLayout"]:pressed {
+    background-color: rgb(50, 50, 57);
+    color: rgb(239, 239, 241);
 }
 
 /* Canvas / Preview background color */
 
 OBSQTDisplay {
     qproperty-displayBackgroundColor: rgb(14, 14, 16);
-    border-radius: 10px;
 }
 
 /* Filters Window */
@@ -1489,17 +1490,14 @@ OBSBasicFilters QListWidget QLabel {
 OBSBasicFilters QListWidget {
     background-color: transparent;
     border-radius: 0;
-    outline: none;
-    border: none;
 }
 
 OBSBasicFilters QListWidget::item {
     border-radius: 4px;
-    border: none;
-    padding: 8px 12px;
     font-weight: normal;
     min-height: 18px;
     max-height: 18px;
+    padding: 8px 12px;
 }
 
 OBSBasicFilters #widget,
@@ -1576,7 +1574,7 @@ OBSBasicSettings {
 /* Checkboxes */
 
 QCheckBox {
-
+    
 }
 
 QCheckBox::indicator,
@@ -1783,14 +1781,15 @@ OBSHotkeyWidget QPushButton:pressed {
 /* Sources List Group Collapse Checkbox */
 
 SourceTreeSubItemCheckBox {
-    background-color: transparent;
-    outline: none;
     padding: 0;
+    margin: 0;
 }
 
 SourceTreeSubItemCheckBox::indicator {
     height: 12px;
     width: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 SourceTreeSubItemCheckBox::indicator:checked,
@@ -1929,7 +1928,6 @@ QSlider::handle:horizontal[themeID="tBarSlider"] {
 
 OBSYoutubeActions {
     qproperty-thumbPlaceholder: url(./Twitch/sources/image.svg);
-    width: 8%;
 }
 
 #ytEventList QLabel {
@@ -1970,46 +1968,53 @@ QDateTimeEdit:on {
 
 QCalendarWidget QWidget#qt_calendar_navigationbar {
     background-color: palette(base);
-    padding: 4px 8px;
+    padding: 12px 8px;
 }
 
 /* Calendar Top Bar Buttons */
 
 QCalendarWidget QToolButton {
     background-color: palette(button);
-    padding: 2px 16px;
-    border-radius: 4px;
-    margin: 2px;
+    border-radius: 0;
+    padding: 8px 12px;
+    margin: 0;
+    min-width: 50px;
+}
+QCalendarWidget QToolButton:hover {
+    background-color: rgb(41, 41, 45);
+}
+QCalendarWidget QToolButton:pressed {
+    background-color: rgb(50, 50, 57);
 }
 
 #qt_calendar_monthbutton::menu-indicator {
-    image: url(./Twitch/down.svg);
-    subcontrol-position: right;
-    padding-top: 2px;
-    padding-right: 6px;
-    height: 10px;
-    width: 10px;
+    image: none;
 }
 
 QCalendarWidget #qt_calendar_prevmonth {
-    padding: 2px;
     qproperty-icon: url(./Twitch/left.svg);
     icon-size: 16px, 16px;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 30px;
+}
+QCalendarWidget #qt_calendar_prevmonth:hover {
+    background-color: transparent;
 }
 
 QCalendarWidget #qt_calendar_nextmonth {
-    padding: 2px;
     qproperty-icon: url(./Twitch/right.svg);
     icon-size: 16px, 16px;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 30px;
 }
-
-QCalendarWidget QToolButton:hover {
-    background-color: rgb(79,83,94);
-    border-radius: 4px;
-}
-
-QCalendarWidget QToolButton:pressed {
-    background-color: rgb(25,27,38);
+QCalendarWidget #qt_calendar_nextmonth:hover {
+    background-color: transparent;
 }
 
 /* Month Dropdown Menu */
@@ -2017,14 +2022,16 @@ QCalendarWidget QToolButton:pressed {
 QCalendarWidget QMenu {
     
 }
+
 /* Year spinbox */
 
 QCalendarWidget QSpinBox {
-    background-color: rgb(25,27,38);
+    background-color: rgb(31, 31, 35);
+    border-radius: 0;
     border: none;
-    border-radius: 4px;
-    margin: 0px 3px 0px 0px;
-    padding: 4px 16px;
+    margin: 0;
+    padding: 6px 12px;
+    min-width: 37px;
 }
 
 QCalendarWidget QSpinBox::up-button { subcontrol-origin: border; subcontrol-position: top right; width: 16px; }
@@ -2034,7 +2041,9 @@ QCalendarWidget QSpinBox::down-arrow { width: 10px; height: 10px; }
 
 /* Days of the Week Bar */
 
-QCalendarWidget QWidget { alternate-background-color: palette(mid); }
+QCalendarWidget QWidget {
+    alternate-background-color: rgb(31, 31, 35);
+}
 
 QCalendarWidget QAbstractItemView:enabled {
     background-color: palette(base);
@@ -2042,7 +2051,7 @@ QCalendarWidget QAbstractItemView:enabled {
 }
 
 QCalendarWidget QAbstractItemView:disabled {
-    color: rgb(122,121,122);
+    color: rgb(122, 121, 122);
 }
 
 /* VirtualCam Plugin Fixes */
