@@ -10,4 +10,4 @@ Twitch style theme for OBS Studio 28+
 
 ---
 
-Create by [kodersha.ru](https://kodersha.ru).
+Create by [Alexandra Travkina](https://kodersha.ru).
