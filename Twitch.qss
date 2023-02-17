@@ -401,6 +401,19 @@ QDockWidget {
     titlebar-normal-icon: url('./Twitch/Popout.svg');
 }
 
+QDockWidget QWidget {
+    background-color: palette(dark);
+}
+
+QDockWidget QWidget QLabel {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+QDockWidget QWidget QPushButton {
+    background-color: rgb(31, 31, 35);
+}
+
 QDockWidget::title {
     font-family: 'Segoe UI', '.AppleSystemUIFont', Helvetica, Arial, 'MS Shell Dlg', sans-serif;
     text-align: left;
